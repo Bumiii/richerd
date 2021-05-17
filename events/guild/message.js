@@ -9,5 +9,6 @@ module.exports = (Discord, client, message) =>{
 
     if(command) command.execute(client, message, cmd, args, Discord);
 
-    message.channel.send("wut?");
-}
+    setTimeout(function(){ 
+        message.channel.send("wut?");
+    }, 500);}
