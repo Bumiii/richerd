@@ -16,7 +16,7 @@ client.on('ready', () => {
     client.user.setPresence({
         status: 'available',     //sets status button to green   
         activity: {
-            name: `Netflix | ${client.guilds.cache.size} servers`,    //This is the custom text  
+            name: `Netflix on ${client.guilds.cache.size} servers`,    //This is the custom text  
             type: 'WATCHING'     //this is the type (duh). 'watching' would also be an option  
         }
         
